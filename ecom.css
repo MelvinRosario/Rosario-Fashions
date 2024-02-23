@@ -1135,7 +1135,7 @@ footer .copyright{
         
     }
     #feature {
-        justify-content: space-between;
+        justify-content: center;
     }
     #feature .fe-box {
         width: 155px;
