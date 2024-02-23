@@ -366,25 +366,6 @@
     </footer>
 
     <script src="ecom.js"></script>
-    <script>
-      $(document).ready(function () {
 
-      function fadeUpContent() {
-        $('.fade-up').each(function () {
-          var position = $(this).offset().top;
-          var windowHeight = $(window).height();
-          var scrollPosition = $(window).scrollTop();
-
-          if (position < scrollPosition + windowHeight - 50) {
-            $(this).addClass('show');
-          }
-        });
-      }
-      fadeUpContent();
-      $(window).scroll(function () {
-        fadeUpContent();
-      });
-    });
-    </script>
   </body>
 </html>
